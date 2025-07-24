@@ -5,8 +5,8 @@ const labsData = [
   {
     name: 'AI & Machine Learning Lab',
     description: 'Equipped with high-performance GPUs and the latest software for developing and testing advanced AI models.',
-    inCharge: 'Dr. Jane Doe',
-    image: 'https://images.unsplash.com/photo-1620712943543-bcc36b7d5a8a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80',
+    inCharge: 'Prof. Shikha Jain',
+    image: 'https://www.amity.edu/aiit/AUN-Research-Lab/AILAB/svgs/design.jpg',
     manualLink: '#',
     timetableLink: '#',
     icon: <FaMicrochip className="text-3xl text-blue-500" />,
@@ -19,8 +19,8 @@ const labsData = [
   {
     name: 'Cybersecurity Lab',
     description: 'A dedicated space for ethical hacking, network security analysis, and digital forensics investigations.',
-    inCharge: 'Dr. John Smith',
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80',
+    inCharge: 'Prof. Shalu Sarswat',
+    image: 'https://media.ahmedabadmirror.com/am/uploads/mediaGallery/image/1719394892335.jpg-org',
     manualLink: '#',
     timetableLink: '#',
     icon: <FaShieldAlt className="text-3xl text-green-500" />,
@@ -33,8 +33,8 @@ const labsData = [
   {
     name: 'Cloud Computing Lab',
     description: 'Provides hands-on experience with major cloud platforms like AWS, Azure, and Google Cloud.',
-    inCharge: 'Dr. Priya Sharma',
-    image: 'https://images.unsplash.com/photo-1546939938-10ccb1461ceb?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80',
+    inCharge: 'DR. deepali Hirolikar',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUniwFAPZEa9kcfAy-EWtlUeFLMsxc8jTIdA&s',
     manualLink: '#',
     timetableLink: '#',
     icon: <FaCloud className="text-3xl text-purple-500" />,
@@ -47,7 +47,7 @@ const labsData = [
   {
     name: 'Data Science Lab',
     description: 'Features tools like Hadoop, Spark, and Tableau for processing and visualizing large datasets.',
-    inCharge: 'Mr. Amit Patel',
+    inCharge: 'Prof. Amol Gadewar',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80',
     manualLink: '#',
     timetableLink: '#',
@@ -61,8 +61,8 @@ const labsData = [
   {
     name: 'IoT & Embedded Lab',
     description: 'A creative space with sensors, microcontrollers, and development kits for building IoT solutions.',
-    inCharge: 'Ms. Sunita Rao',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c7c73334620?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80',
+    inCharge: 'Prof. R. Kawale',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxa8sOiaUwStAQZ38R-FFd4IvCtFlnLX5o9g&s',
     manualLink: '#',
     timetableLink: '#',
     icon: <FaMicrochip className="text-3xl text-yellow-500" />,
@@ -75,8 +75,8 @@ const labsData = [
   {
     name: 'Networking Lab',
     description: 'Contains routers, switches, and other networking hardware from Cisco for practical experiments.',
-    inCharge: 'Dr. Raj Verma',
-    image: 'https://images.unsplash.com/photo-1614063022142-269c3a404988?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80',
+    inCharge: 'Prof. Nutan Phalake',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH03Io7ojFl0v1VDLpYO6rjerFInSpByXhWA&s',
     manualLink: '#',
     timetableLink: '#',
     icon: <FaNetworkWired className="text-3xl text-indigo-500" />,

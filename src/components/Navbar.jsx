@@ -3,6 +3,9 @@ import { NavLink, Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaUserLock, FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
+// 1. IMPORT YOUR LOGO
+import myLogo from '../assets/logo.jpg'; // Make sure the path is correct
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -18,7 +21,6 @@ const Navbar = () => {
 
   const navLinks = [
     { title: 'Home', path: '/' },
-    
     { 
       title: 'Academics', 
       path: '/academics',
@@ -32,10 +34,10 @@ const Navbar = () => {
     { title: 'Labs', path: '/labs' },
     { title: 'Students', path: '/students' },
     { title: 'Events', path: '/events' },
-
     { title: 'Placements', path: '/placements' },
     { title: 'Alumni', path: '/alumni' },
     { title: 'Contact', path: '/contact' },
+
   ];
 
   const toggleDropdown = (index) => {
@@ -51,12 +53,13 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             className="flex-shrink-0"
           >
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-2 rounded-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </div>
+            <Link to="/" className="flex items-center space-x-3">
+              {/* 2. REPLACE SVG WITH YOUR IMG TAG */}
+              <img
+                src={myLogo}
+                alt="IT Department Logo"
+                className="h-12 w-12 rounded-full object-cover border-2 border-blue-500 shadow-sm"
+              />
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
                 IT Department
               </span>

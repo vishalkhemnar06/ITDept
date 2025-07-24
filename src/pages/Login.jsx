@@ -43,7 +43,7 @@ const LoginPage = () => {
     } else if (activeRole === 'Faculty') {
       navigate('/faculty-dashboard');
     } else if (activeRole === 'HOD') {
-      navigate('/hod-dashboard');
+      navigate('/hod_dashboard');
     }
   };
 

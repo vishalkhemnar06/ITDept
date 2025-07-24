@@ -11,7 +11,7 @@ const coursesData = [
     semester: 3, 
     description: 'An in-depth study of fundamental data structures and algorithmic techniques.',
     syllabus: ['Arrays & Linked Lists', 'Trees & Graphs', 'Sorting Algorithms', 'Complexity Analysis'],
-    faculty: ['Dr. Smith', 'Prof. Johnson']
+    faculty: ['Dr. Deepali Hirolikar']
   },
   { 
     code: 'IT-302', 
@@ -20,7 +20,7 @@ const coursesData = [
     semester: 3, 
     description: 'Covers database design, SQL, and transaction management.',
     syllabus: ['Relational Model', 'SQL Programming', 'Database Design', 'Transaction Management'],
-    faculty: ['Dr. Williams']
+    faculty: ['Prof. Priyanka Kaurav']
   },
   { 
     code: 'IT-401', 
@@ -29,7 +29,7 @@ const coursesData = [
     semester: 4, 
     description: 'Explores the core concepts of modern operating systems.',
     syllabus: ['Process Management', 'Memory Management', 'File Systems', 'Synchronization'],
-    faculty: ['Prof. Brown', 'Dr. Davis']
+    faculty: ['Prof. Amol Gadevar']
   },
   { 
     code: 'IT-402', 
@@ -38,7 +38,7 @@ const coursesData = [
     semester: 4, 
     description: 'Principles and protocols of computer networking.',
     syllabus: ['Network Layers', 'TCP/IP', 'Routing Algorithms', 'Network Security'],
-    faculty: ['Dr. Miller']
+    faculty: ['Prof. R. Kawale']
   },
   { 
     code: 'IT-501', 
@@ -47,7 +47,7 @@ const coursesData = [
     semester: 5, 
     description: 'Introduction to AI, covering search and machine learning.',
     syllabus: ['Search Algorithms', 'Knowledge Representation', 'Neural Networks', 'Natural Language Processing'],
-    faculty: ['Prof. Wilson']
+    faculty: ['Prof. Shikha Jain']
   },
   { 
     code: 'IT-502', 
@@ -56,7 +56,7 @@ const coursesData = [
     semester: 5, 
     description: 'Methodologies for large-scale software development.',
     syllabus: ['Agile Development', 'Software Design', 'Testing', 'Project Management'],
-    faculty: ['Dr. Moore', 'Prof. Taylor']
+    faculty: ['Dr. Deepali Hirolikar']
   },
   { 
     code: 'IT-601', 
@@ -65,7 +65,7 @@ const coursesData = [
     semester: 6, 
     description: 'Fundamentals of cloud technologies and services.',
     syllabus: ['Virtualization', 'Cloud Storage', 'AWS/Azure', 'Serverless Architecture'],
-    faculty: ['Prof. Anderson']
+    faculty: ['Prof. Nutan Phalake']
   },
   { 
     code: 'IT-602', 
@@ -74,7 +74,7 @@ const coursesData = [
     semester: 6, 
     description: 'Overview of cybersecurity principles and threats.',
     syllabus: ['Cryptography', 'Network Security', 'Ethical Hacking', 'Risk Management'],
-    faculty: ['Dr. Thomas']
+    faculty: ['Prof. Nikita Lonkar']
   },
 ];
 

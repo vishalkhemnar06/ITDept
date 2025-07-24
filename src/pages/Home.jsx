@@ -9,9 +9,9 @@ const announcements = [
 ];
 
 const upcomingEvents = [
-  { id: 1, title: "Hackathon 2023", date: "2023-12-05", location: "CS Lab" },
-  { id: 2, title: "Guest Lecture: Cloud Computing", date: "2023-12-12", location: "Auditorium" },
-  { id: 3, title: "Project Exhibition", date: "2023-12-18", location: "IT Department" },
+  { id: 1, title: "Hackathon 2025", date: "Comming soon..", location: "IT Lab" },
+  { id: 2, title: "Guest Lecture: Cloud Computing", date: "2025-12-12", location: "Auditorium" },
+  { id: 3, title: "Project Exhibition", date: "2025-12-18", location: "IT Department" },
 ];
 
 const Home = () => {
@@ -63,13 +63,13 @@ const Home = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link 
-              to="/admissions" 
+              to="/contact" 
               className="px-8 py-3 font-semibold rounded-full shadow-lg transform transition-all hover:scale-105 bg-gradient-to-r from-amber-500 to-amber-600 text-white hover:shadow-amber-500/30"
             >
               Apply Now
             </Link>
             <Link 
-              to="/brochure" 
+              to="/events" 
               className="px-8 py-3 font-semibold rounded-full shadow-lg transform transition-all hover:scale-105 bg-white text-blue-900 hover:shadow-white/30"
             >
               Explore Programs
@@ -190,7 +190,7 @@ const Home = () => {
               <div className="relative h-48 overflow-hidden">
                 <img 
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110" 
-                  src="https://images.unsplash.com/photo-1532187643623-8f6975a6e878?q=80&w=1932&auto=format&fit=crop" 
+                  src="https://thumbs.dreamstime.com/b/state-art-quality-control-lab-pharmaceuticals-precision-high-tech-assurance-step-future-pharmaceutical-315102961.jpg" 
                   alt="Researcher working in a lab" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 to-transparent"></div>

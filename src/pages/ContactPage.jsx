@@ -82,11 +82,11 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-800">Our Address</h3>
-                    <p className="text-gray-600">Computer Science Department<br />
-                    Indian Institute of Technology Delhi<br />
-                    Hauz Khas, New Delhi 110016</p>
+                    <p className="text-gray-600">Information Technology Department<br />
+                    PDEA's College of Engineering<br />
+                    Pune, Maharasthra 412307</p>
                     <a 
-                      href="https://maps.google.com?q=IIT+Delhi" 
+                      href="https://maps.app.goo.gl/XmMscMNfXHcuwfWQ7" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="inline-flex items-center text-blue-600 hover:text-blue-800 mt-2"
@@ -116,8 +116,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-bold text-gray-800">Email</h3>
                     <p className="text-gray-600">
-                      General: <a href="mailto:csdept@iitd.ac.in" className="text-blue-600 hover:text-blue-800">csdept@iitd.ac.in</a><br />
-                      Admissions: <a href="mailto:admissions@iitd.ac.in" className="text-blue-600 hover:text-blue-800">admissions@iitd.ac.in</a>
+                      General: <a href="mailto:csdept@iitd.ac.in" className="text-blue-600 hover:text-blue-800">pdeait@gmail.com</a><br />
+                      Admissions: <a href="mailto:admissions@iitd.ac.in" className="text-blue-600 hover:text-blue-800">pdeacoem@gmail.com</a>
                     </p>
                   </div>
                 </div>
@@ -162,7 +162,7 @@ const ContactPage = () => {
                 </div>
                 <div className="flex items-center">
                   <FaEnvelope className="mr-3 text-blue-200" />
-                  <span>helpdesk@iitd.ac.in</span>
+                  <span>pdeacoem@gmail.com</span>
                 </div>
               </div>
             </div>

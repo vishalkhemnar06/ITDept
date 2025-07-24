@@ -42,6 +42,7 @@ function App() {
         <Route path="courses" element={<><Navbar/><Courses /></>} />
         <Route path="syllabus" element={<><Navbar/><Syllabus /></>} />
         <Route path="calendar" element={<><Navbar/><AcademicCalendar /></>} />
+      
     
   
 

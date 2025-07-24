@@ -25,11 +25,7 @@ const achievements = [
 ];
 
 const councilMembers = [
-  { name: 'Aditya Verma', role: 'President', photo: 'https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=1887&auto=format&fit=crop', social: { linkedin: '#', email: '#' } },
-  { name: 'Meera Iyer', role: 'Vice President', photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1887&auto=format&fit=crop', social: { linkedin: '#', email: '#' } },
-  { name: 'Karan Singh', role: 'Secretary', photo: 'https://images.unsplash.com/photo-1632910121591-21227f85d4b0?q=80&w=1887&auto=format&fit=crop', social: { linkedin: '#', email: '#' } },
-  { name: 'Neha Patel', role: 'Treasurer', photo: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1887&auto=format&fit=crop', social: { linkedin: '#', email: '#' } },
-  { name: 'Rahul Joshi', role: 'Event Coordinator', photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop', social: { linkedin: '#', email: '#' } },
+ 
 ];
 
 const semesters = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
